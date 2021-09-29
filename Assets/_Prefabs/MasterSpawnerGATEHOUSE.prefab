@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7014266728658487487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5567784954550262083}
+  - component: {fileID: 1966161343211514581}
+  - component: {fileID: 1147060533838033445}
+  m_Layer: 19
+  m_Name: MasterSpawnerGATEHOUSE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5567784954550262083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014266728658487487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1966161343211514581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014266728658487487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a85c5879d519aa4ab2ebbf42591149a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodes:
+  - position: {x: 0, y: 0, z: 1}
+    direction: {x: 0, y: 0, z: 1}
+    up: {x: 0, y: 1, z: 0}
+    scale: {x: 1, y: 1}
+    roll: 0
+  - position: {x: 0, y: 0, z: 2}
+    direction: {x: 0, y: 0, z: 2}
+    up: {x: 0, y: 1, z: 0}
+    scale: {x: 1, y: 1}
+    roll: 0
+  curves:
+  - n1:
+      position: {x: 0, y: 0, z: 1}
+      direction: {x: 0, y: 0, z: 1}
+      up: {x: 0, y: 1, z: 0}
+      scale: {x: 1, y: 1}
+      roll: 0
+    n2:
+      position: {x: 0, y: 0, z: 2}
+      direction: {x: 0, y: 0, z: 2}
+      up: {x: 0, y: 1, z: 0}
+      scale: {x: 1, y: 1}
+      roll: 0
+    Changed:
+      m_PersistentCalls:
+        m_Calls: []
+  Length: 1
+  isLoop: 0
+  CurveChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1147060533838033445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014266728658487487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bc80d4c1c799346b57921fb3aaeeeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1931018082507708, guid: 65290c8a0968be743bf5b4c95114c272, type: 3}
+  scale: 1
+  scaleRange: 0
+  spacing: 1
+  spacingRange: 0
+  offset: 0
+  offsetRange: 0
+  isRandomYaw: 0
+  randomSeed: 0
